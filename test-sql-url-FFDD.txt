@@ -1,0 +1,25 @@
+select * from db;
+select count(*) from db;
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'somePassword';
+CREATE USER 'user_test'@'localhost' IDENTIFIED BY 'somePassword_test';
+GRANT ALL PRIVILEGES ON  `run_%`.* TO 'user'@'localhost';
+GRANT ALL PRIVILEGES ON  `test_%`.* TO 'user_test'@'localhost';
+CREATE TABLE `sectors` AS SELECT `id`, `idate`, `name` FROM `news` WHERE DD = DD;
+ALTER TABLE `sectors` ADD PRIMARY KEY(`id`), MODIFY `id` INT(DD)UNSIGNED NOT NULL AUTO_INCREMENT;
+INSERT INTO `sectors` SELECT * FROM `news`;
+INSERT INTO `items`(`name`,`art`,`count_sold`,`count_boxes`) value      ('֧ݧ֧ SAX DD',DD,DD,DD);
+INSERT INTO `items`(`name`,`art`,`count_sold`,`count_boxes`) values ('֧ݧ֧ SAX DD',DD,DD,DD);
+INSERT INTO `items`(`name`,`art`,`count_sold`,`count_boxes`) values ('ܧ Senator Spring',DD,DD,DD);
+INSERT INTO `items`(`name`,`art`,`count_sold`,`count_boxes`) values ('ܧ Pilot',DD,DD,DD);
+INSERT INTO `items`(`name`,`art`,`count_sold`,`count_boxes`) values ('ܧ Parker Sonet',DD,DD,DD);
+INSERT INTO `items`(`name`,`art`,`count_sold`,`count_boxes`) values ('ܧ Parker Insignia',DD,DD,DD);
+INSERT INTO `items`(`name`,`art`,`count_sold`,`count_boxes`) values ('ܧ Parker Frontier',DD,DD,DD);
+INSERT INTO `items`(`name`,`art`,`count_sold`,`count_boxes`) values ('ܧ Ico Omega',DD,DD,DD);
+INSERT INTO `items`(`name`,`art`,`count_sold`,`count_boxes`) values ('ߧ֧-ܧѧڧէ HP CDDX',DD,DD,DD);
+INSERT INTO `items`(`name`,`art`,`count_sold`,`count_boxes`) values ('ߧ֧-ܧѧڧէ HPCDDA',DD,DD,DD);
+CREATE TABLE `schedule` (`date` DATE NOT NULL,`user_id` INT(DD) UNSIGNED NOT NULL,
+  PRIMARY KEY (`date`,`user_id`)) ENGINE=INNODB;
+SELECT MAX(`date`) AS `prev_date` FROM `schedule` WHERE `date` < 'DD-DD-DD';
+SELECT MIN(`date`) AS `next_date` FROM `schedule` WHERE `date` > 'DD-DD-DD';
+SET @counter := DD;
+SELECT `company`, @counter AS `counter` FROM (SELECT `company` FROM `regions` WHERE `is_active` = DD GROUP BY `region`) AS `dummy_alias` WHERE LEAST(DD, @counter := @counter + DD) = DD ORDER BY `counter`;

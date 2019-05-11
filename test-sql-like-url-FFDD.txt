@@ -1,0 +1,41 @@
+Be sure to select firm, unblemished fruit.
+She selected a book from one of the shelves.
+New judges were quickly selected from among the city's lawyers.
+selected works from this collection
+Marble was selected as the most suitable material for the worktops.
+the photo selected for the front cover of the magazine
+People need to be able to select from a range of therapies.
+It can help to select sweaters made out of materials that wont ravel.
+Select a couple of ingredients and add them to a tried-and-tested recipe of your own.
+<select><option value ="volvo">Volvo</option><option value ="saab">Saab</option><option value="opel">Opel</option><option value="audi">Audi</option></select>
+Insert a small knife into the top of the chicken breast to loosen the skin.
+(broadcasting) a local announcement inserted into a network program
+The gap was large enough for him to insert a finger.
+Enter your password.
+No-one could use the computer unless they had a password.
+make or become different in some particular way, without permanently losing one's or its former characteristics or essence;
+insert words into texts, often falsifying it thereby
+The government is ready to declare a permanent ceasefire.
+Newman himself had previously declared against the practice.
+The Catalans declared for Charles and a civil war erupted in Valencia and Aragon.
+The British government introduced a watered-down version of the proposals.
+The review body has produced a truncated version of its annual report.
+Apache HTTP Server version DD.DD.DD or newer is required in order to operate a TLS DD.DD web server with OpenSSL DD.DD.DD.
+The Apache Software Foundation and the Apache HTTP Server Project are pleased to announce the release of version DD.DD.DD of the Apache HTTP Server ("httpd").
+select ֶ from DD where  union
+Replace UNION ALL with UNION where a sync could change underlying data in the middle
+during a UNION ALL underlying data in the queried tables can change, that means we can get any sort of random results (duplicates or missing results) from those queries.
+select * from (union)Լwhere?
+select  ֶDDֶDDֶDDcountfrom    where ֶDD=DDͳΪDD   group by ֶDDֶDDֶDD
+ֶDDֶDDֶDDcountfrom    where ֶDD=DDͳΪDD   group by ֶDDֶDDֶDD
+Where Are You Now - Union J
+Person[] pDD = pDD.Where(c => string.IsNullOrEmpty(c.Error)).Select(c => new Person { Name = c.Name, Age = c.Age }).ToArray()Union().Where(d => !string.IsNullOrEmpty(d.Error)).Select(d => new Person { Error = d.Error }).ToArray()
+minus ųͬݵidabͬcselect ֶ from a minus select ֶ from ba where a.id=b.id
+for (int i = DD; i < DD; i++){char a = (char)i;Console.WriteLine("Char("+i+")----"+a);}
+for (int i = DD; i < DD; i++){char a = (char)i;Console.WriteLine("Char("+i+")----"+a);}
+char ch = (char) i;  һ˼ʲôڡ=ġcharʲô鷳λְæһ
+ORDER ONLINE [LIMITED AVAILABILITY] DELIVERYPICKUP WANT CHARLEYS? GET YOUR FIX AND THEN SOME Join our eClub 
+dw_child.setfilter("name like '%" + data + "%'  or  sizeDD like '%" + data + "%'") 
+dw_DD.setfilter("aaid like '%" + ls_rtn + "%' or bb like '%" + ls_rtn + "%'")
+Goal Setting Formula How To Set And Achieve Your Goals Like A 
+Could not set parameters for mapping: ParameterMapping
